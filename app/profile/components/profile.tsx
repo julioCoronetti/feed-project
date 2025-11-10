@@ -6,6 +6,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { Dialog, DialogContent, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { Edit } from "lucide-react";
 
 export const ProfileCardUser = () => {
@@ -24,9 +25,18 @@ export const ProfileCardUser = () => {
         </CardContent>
       </Card>
 
-      <Button className="w-25 h-10 flex justify-center items-center gap-3">
-        <Edit /> Edit
-      </Button>
+      <Dialog>
+        <DialogTrigger asChild>
+          <Button className="w-25 h-10 flex justify-center items-center gap-3">
+            <Edit /> Edit
+          </Button>
+        </DialogTrigger>
+        <DialogContent>
+          <DialogTitle>
+            oi
+          </DialogTitle>
+        </DialogContent>
+      </Dialog>
     </div>
   );
 };
