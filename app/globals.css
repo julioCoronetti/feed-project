@@ -60,7 +60,7 @@
   --destructive-foreground: #ffffff;
   --border: #e1eaef;
   --input: #f7f9fa;
-  --ring: #abfa00;
+  --ring: #90a082;
   --chart-1: #abfa00;
   --chart-2: #00b87a;
   --chart-3: #f7b928;
@@ -68,12 +68,12 @@
   --chart-5: #e0245e;
   --sidebar: #f7f8f8;
   --sidebar-foreground: #90a082;
-  --sidebar-primary: #aef11e;
-  --sidebar-primary-foreground: #aef11e;
+  --sidebar-primary: #90a082;
+  --sidebar-primary-foreground: #90a082;
   --sidebar-accent: #e3ecf6;
-  --sidebar-accent-foreground: #b2f226;
+  --sidebar-accent-foreground: #90a082;
   --sidebar-border: #e1e8ed;
-  --sidebar-ring: #abfa00;
+  --sidebar-ring: #90a082;
   --font-sans: var(--font-poppins), ui-sans-serif, sans-serif, system-ui;
   --font-serif: Georgia, serif;
   --font-mono: Menlo, monospace;
