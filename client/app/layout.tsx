@@ -24,15 +24,17 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="pt-BR" className={poppins.variable}>
-      <body className="w-full h-screen flex flex-col items-center px-">
-        <header className="grid grid-cols-3 my-7 w-full max-w-360">
-          <div></div>
-          <div className="flex justify-center">
-            <Navigation />
-          </div>
-          <div className="flex gap-2 justify-end items-center">
-            <Register />
-            <Login />
+      <body className="w-full h-screen flex flex-col items-center">
+        <header className="my-7 w-full px-6">
+          <div className="grid grid-cols-3 items-center">
+            <div />
+            <div className="justify-self-center">
+              <Navigation />
+            </div>
+            <div className="justify-self-end flex gap-2 items-center">
+              <Register />
+              <Login />
+            </div>
           </div>
         </header>
         {children}
