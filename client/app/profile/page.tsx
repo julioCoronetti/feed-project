@@ -8,7 +8,7 @@ const Profile = () => {
     <div className="w-full flex flex-col gap-5 items-center">
       <h1 className="text-3xl font-medium w-160">Profile</h1>
       <div className="w-160 flex justify-between">
-        <Card className="w-60 h-130 overflow-hidden py-2 px-4">
+        <Card className="w-60 overflow-hidden py-2 px-4">
           <h2 className="h-10 flex items-center font-medium gap-2">
             <Settings />
             Settings
