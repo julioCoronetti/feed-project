@@ -1,4 +1,4 @@
-# Feed Project
+# Front End
 
 ## Auth
 - [ ] Formulários login/register
